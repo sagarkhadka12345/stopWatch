@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+main {
+height: 100vh;
+width: 100vw;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: aqua;
+}
+main .stopWatch{
+    width: 25rem;
+    height: 25rem;
+    background-color: rgb(179, 165, 141);
+    border: 2px solid black;
+    box-shadow: 2px 2px gray;
+}
+.stopWatch .screen{
+    margin:1rem .5rem;
+    height: 60%;
+    background-color: white;
+    padding:1rem .5rem;
+    font-size: 20px;
+    color:purple;
+}
+.stopWatch .buttons{
+    margin:0rem 1rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.stopWatch .buttons button{
+    all: unset;
+    padding: 1rem 1.5rem;
+    border: 2px solid orange;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+.start{
+    background-color: green !important;
+
+}
+.pause{
+    background-color: orange !important;
+}
+.reset{
+    background-color: rgb(245, 62, 62) !important;
+}
